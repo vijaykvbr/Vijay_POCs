@@ -1,0 +1,23 @@
+{{ctrl.pageState}}
+<div ng-if="!$ctrl.pageState || $ctrl.pageState.length<1 ">
+	<a href="#" ng-click='$ctrl.onClickClients()'>Clients</a>
+	<br/>
+	<a href="#" ng-click='$ctrl.onClickClusters()'>Clusters</a>
+</div>
+
+<br/>
+
+<div ng-if="$ctrl.pageState==='clients' ">
+	<clients-info></clients-info>
+</div>
+
+<div ng-if="$ctrl.pageState==='clusters' ">
+	<clusters-info></clusters-info>
+</div>
+
+<!-- 
+<div ng-if="$ctrl.pageState='servers' ">
+	<servers-info></servers-info>
+</div>
+
+ -->

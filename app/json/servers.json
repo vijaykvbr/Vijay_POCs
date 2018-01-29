@@ -1,0 +1,17 @@
+[
+    {
+      "ip":"10.200.173.60",
+      "webAddress":"mwcl01prweb01.corp.reflexisinc.com",
+      "serverName":"mwcl01prweb01"
+    },
+     {
+      "ip":"10.122.173.33",
+      "webAddress":"mwcl01prweb02.corp.reflexisinc.com",
+      "serverName":"mwcl01prweb02"
+    },
+     {
+      "ip":"10.43.553.22",
+      "webAddress":"mwcl01prweb03.corp.reflexisinc.com",
+      "serverName":"mwcl01prweb03"
+    }
+]

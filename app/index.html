@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title tab-index="-1">Clients Infrastructure</title>
+</head>
+<body>
+	<div ng-app="clients_infra">
+		<div ui-view></div>
+		<div class="container">
+			<br>
+			<div class="row">
+				<div class="col-xs-12">
+					<feedback-panel></feedback-panel>
+				</div>
+			</div>
+			<home></home>
+		</div>
+
+		<div class="pleasewait" ng-show="$root.params.showPleaseWait"></div>
+	</div>
+	<script src="http://localhost:9001/webpack-dev-server.js"></script>
+	<script src="bundle.js"></script>
+</body>
+</html>

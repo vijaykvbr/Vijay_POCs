@@ -1,0 +1,31 @@
+[
+  {
+      "clusterName": "Cluster01",
+      "prDataCenter": "RAD",
+      "drDataCenter": "RWD",
+      "primary": "RWD"
+    },
+    {
+      "clusterName": "Cluster02",
+      "prDataCenter": "UK",
+      "primary": "UK"
+    },
+    {
+      "clusterName": "Cluster03",
+       "prDataCenter": "SSD",
+       "drDataCenter": "RWD",
+       "primary": "RWD"
+    },
+     {
+      "clusterName": "Cluster04",
+       "prDataCenter": "RAD",
+       "drDataCenter": "RWD",
+       "primary": "RAD"
+    },
+     {
+      "clusterName": "Cluster05",
+       "prDataCenter": "RAD",
+       "drDataCenter": "RWD",
+       "primary": "RWD"
+    }
+]

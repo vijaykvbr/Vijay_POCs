@@ -1,0 +1,31 @@
+[
+  {
+      "clientName": "BestBuy",
+      "clusterName": "Cluster01",
+      "prDataCenter": "SSD",
+      "drDataCenter": "SAD"
+    },
+    {
+      "clientName": "Wal greens",
+      "clusterName": "Cluster02",
+      "prDataCenter": "RAD",
+      "drDataCenter": "RWD"
+    },
+    {
+      "clientName": "loves",
+      "clusterName": "Cluster03",
+      "ppDataCenter": "Pallas"
+    },
+    {
+      "clientName": "Five below",
+      "clusterName": "Cluster04",
+      "drDataCenter": "UK",
+      "sbDataCenter": "SAD"
+    },
+    {
+      "clientName": "Quick check",
+      "clusterName": "Cluster05",
+      "prDataCenter": "SSD",
+      "drDataCenter": "Pallas"
+    }
+]

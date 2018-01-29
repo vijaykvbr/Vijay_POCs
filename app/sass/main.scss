@@ -1,0 +1,74 @@
+@import "./app/components/feedbackPanel/feedbackPanel.scss";
+@import "pleasewait.scss";
+
+th{
+font-size: 12px;
+}
+
+
+.inlineFieldError{
+	display: inline-grid; 
+	 
+
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+ 
+ 	.inlineFieldError {
+		display: inline-block;
+	 }
+ 
+ 	.inlineFieldError input{
+		display: block;
+	}
+ }
+ 
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: white;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #dbdbdb;
+}
+
+.table-header{
+background-color:#bfbfbf
+}
+
+tr{
+border:1pt 1pt 1pt 1pt solid #dbdbdb;
+
+}
+
+tr.listView td,tr.listView th{
+	width:12%;
+}
+
+
+tr.listView td:last-child {
+    width : 100% !important;
+    text-align:left;
+    padding-left:100px !important;
+}
+
+tr.listView th:last-child {
+    width : 100% !important;
+    text-align:left;
+    padding-left:71px !important;
+}
+
+
+.align-center{
+text-align:center
+}
+.align-left{
+text-align:left
+}
+.align-right{
+text-align:right
+}
+
+.error-border{
+border-width:1px;
+border-color:red;
+}
+

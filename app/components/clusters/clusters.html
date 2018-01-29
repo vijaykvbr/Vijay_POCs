@@ -1,0 +1,26 @@
+
+<div class="container" ng-if='!$ctrl.isShowServers'>          
+  <table class="table table-striped" style="width: 80%;">
+    <thead class="thead-dark">
+      <tr>
+        <th>Cluster_Name</th>
+        <th>PR_DataCenter</th>
+        <th>DR_DataCenter</th>
+        <th>Primary</th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <tr ng-repeat='cluster in $ctrl.clusters'>
+        <td><a href="#" ng-click='$ctrl.openClusterInfo()'> {{cluster.clusterName}} </td>
+        <td>{{cluster.prDataCenter ? cluster.prDataCenter : 'NA'}}</td>
+        <td>{{cluster.drDataCenter ? cluster.drDataCenter : 'NA'}}</td>
+        <td>{{cluster.primary}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div  ng-if='$ctrl.isShowServers'>
+    <servers-info></servers-info>
+</div>

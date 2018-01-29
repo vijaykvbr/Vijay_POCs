@@ -1,0 +1,7 @@
+
+<div ng-repeat="message in $root.feedbackMessages" class="text-center">
+	<div  class='text-center' ng-class="{error:message.msgType== 'error',info: message.msgType=='info'}">
+		<button>{{message.msg}}</button>
+	</div>
+</div>
+
